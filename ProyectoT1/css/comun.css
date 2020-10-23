@@ -1,0 +1,22 @@
+*
+{
+  padding:0px;
+  margin:0px;
+}
+
+body
+{
+  background-color: #824f4f;
+}
+
+#encabezado
+{
+  background-color: white;
+  width: 100%;
+  height: 300px;
+  color:#6c0404;
+}
+#tituloWeb
+{
+  width: 75%;
+}
