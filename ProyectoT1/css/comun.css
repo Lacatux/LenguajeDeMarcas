@@ -17,6 +17,13 @@ body
   color:#6c0404;
 }
 
+#pie
+{
+  background-color: #555555;
+  width: 100%;
+  height: 200px;
+}
+
 #tituloWeb
 {
   position: relative;
@@ -35,4 +42,21 @@ body
   top: -180px;
   height: 330px;
   right: 30px;
+}
+
+#rrss
+{
+  margin-left: 45%;
+  padding:20px;
+}
+
+#rrss > span
+{
+  color:black;
+}
+.iconosSociales
+{
+  width:20px;
+  height: 20px;
+  margin: 3px;
 }
