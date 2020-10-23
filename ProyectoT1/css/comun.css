@@ -13,10 +13,26 @@ body
 {
   background-color: white;
   width: 100%;
-  height: 300px;
+  height: 280px;
   color:#6c0404;
 }
+
 #tituloWeb
 {
-  width: 75%;
+  position: relative;
+  width: 50%;
+  left: 50px;
+  top: 75px;
+  height: 150px;
+  font-family: 'Staatliches';
+  font-size: 100px;
+}
+
+#logo
+{
+  float:right;
+  position: relative;
+  top: -180px;
+  height: 330px;
+  right: 30px;
 }
