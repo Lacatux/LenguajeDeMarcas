@@ -60,3 +60,43 @@ body
   height: 20px;
   margin: 3px;
 }
+
+#menu
+{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #610d0d;
+  position: relative;
+  top: -222px;
+  width: 100%;
+}
+
+#menu ul
+{
+  list-style-type: none;
+}
+
+#menu li
+{
+  float:left;
+}
+
+#menu li a
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 11px 22px;
+  text-decoration: none;
+}
+
+#menu li a:hover
+{
+  background-color: #000000;
+}
+
+#menu .active
+{
+  background-color: red;
+}
