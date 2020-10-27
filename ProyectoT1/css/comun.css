@@ -13,7 +13,7 @@ body
 {
   background-color: white;
   width: 100%;
-  height: 280px;
+  height: 150px;
   color:#6c0404;
 }
 
@@ -29,7 +29,7 @@ body
   position: relative;
   width: 50%;
   left: 50px;
-  top: 75px;
+  top: 13px;
   height: 150px;
   font-family: 'Staatliches';
   font-size: 100px;
@@ -39,8 +39,8 @@ body
 {
   float:right;
   position: relative;
-  top: -180px;
-  height: 330px;
+  top: -167px;
+  height: 180px;
   right: 30px;
 }
 
@@ -68,7 +68,7 @@ body
   overflow: hidden;
   background-color: #610d0d;
   position: relative;
-  top: -222px;
+  top: -190px;
   width: 100%;
 }
 
@@ -89,6 +89,7 @@ body
   text-align: center;
   padding: 11px 22px;
   text-decoration: none;
+  border-right: 3px solid white;
 }
 
 #menu li a:hover
@@ -99,4 +100,33 @@ body
 #menu .active
 {
   background-color: red;
+}
+
+#menu li ul li
+{
+  display: none;
+  position: absolute;
+  position: fixed;
+  background-color: #333;
+  border-right: -3px solid #333;
+}
+
+#menu li:hover ul li
+{
+  display: block;
+}
+
+#menu li ul li a
+{
+  width: 110px;
+}
+
+#menu li ul li:nth-child(2)
+{
+  margin-top: 46px;
+}
+
+#menu li ul li:nth-child(3)
+{
+  margin-top: 92px;
 }
