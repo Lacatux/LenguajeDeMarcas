@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <title>XAVLEG</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
     <link rel="stylesheet" type="text/css" href="css/comun.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
@@ -41,7 +41,20 @@
 
     <div id="cuerpo">
 
-      <a href="#">AAAAAAAAAAAAA</a>
+      <form action="registro.html" method="post">
+        <div class="container">
+          <label for="uname"><b>Usuario</b></label>
+          <input type="text" placeholder="Introduce usuario" name="uname" required>
+
+          <label for="psw"><b>Contraseña</b></label>
+          <input type="password" placeholder="Introduce contraseña" name="psw" required>
+
+          <button type="submit">Entar</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Recuérdame
+          </label>
+        </div>
+      </form>
 
     </div>
 
