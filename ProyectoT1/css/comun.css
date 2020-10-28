@@ -109,6 +109,7 @@ body
   position: fixed;
   background-color: #333;
   border-right: -3px solid #333;
+  height: 30px;
 }
 
 #menu li:hover ul li
