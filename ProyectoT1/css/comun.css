@@ -89,7 +89,6 @@ body
   text-align: center;
   padding: 11px 22px;
   text-decoration: none;
-  border-right: 3px solid white;
 }
 
 #menu li a:hover
@@ -108,8 +107,7 @@ body
   position: absolute;
   position: fixed;
   background-color: #333;
-  border-right: -3px solid #333;
-  height: 30px;
+  height: 55px;
 }
 
 #menu li:hover ul li
