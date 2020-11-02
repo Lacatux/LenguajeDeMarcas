@@ -16,7 +16,10 @@ body
   height: 150px;
   color:#6c0404;
 }
-
+#cuerpo
+{
+  padding-top: 10px;
+}
 #pie
 {
   background-color: #555555;
