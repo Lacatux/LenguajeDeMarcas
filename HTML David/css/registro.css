@@ -1,0 +1,43 @@
+#formulario
+{
+  margin:75px;
+  position: relative;
+  left:450px;
+  top: 50px;
+  height: 250px;
+  width: 290px;
+  border:10px double red;
+  padding:20px;
+  font-size: 20px;
+}
+
+#cuerpo
+{
+  height: 700px;
+}
+
+
+
+#enviar
+{
+  position: relative;
+  left:120px;
+  width: 65px;
+  height: 25px;
+}
+
+input
+{
+  margin-top:6px;
+  color: black;
+}
+
+select
+{
+  color: black;
+}
+
+option
+{
+  color: black;
+}

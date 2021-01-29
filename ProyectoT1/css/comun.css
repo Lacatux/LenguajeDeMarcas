@@ -6,7 +6,7 @@
 
 body
 {
-  background-color: #824f4f;
+  background-color: #878787;
 }
 
 #encabezado
@@ -19,12 +19,13 @@ body
 #cuerpo
 {
   padding-top: 10px;
+  margin-top: 50px;
 }
 #pie
 {
   background-color: #555555;
   width: 100%;
-  height: 200px;
+  height: 75px;
 }
 
 #tituloWeb

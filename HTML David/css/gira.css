@@ -1,0 +1,32 @@
+table
+{
+  border: double;
+      border-top-width: medium;
+      border-right-width: medium;
+      border-bottom-width: medium;
+      border-left-width: medium;
+  border-radius: 15px;
+  border-width: 19px;
+  border-block-style: groove;
+  border-block-style: dashed;
+  width: -moz-available;
+  font-size: 30px;
+}
+
+td
+{
+  border: solid;
+  margin-left: 10px !important;
+  border-color: red;
+}
+
+th
+{
+  font-size: 40px;
+}
+
+h2
+{
+  color: red;
+  font-size: 50px;
+}

@@ -1,0 +1,102 @@
+#fotoportada
+{
+  width: 300px;
+  height: 180px;
+  padding: 10px;
+}
+
+#noticia
+{
+  font-size: 50px;
+
+}
+
+#ultdisc
+{
+  width: 100px;
+  height: 120px;
+  text-align: center;
+}
+
+#ultdisc:hover
+{
+  transform: scale(2) rotate(360deg);
+
+  transition-duration: 1s;
+}
+
+h2
+{
+  color: red;
+}
+
+.kk
+{
+  width: 700px;
+  height: 200px;
+}
+
+.kk2
+{
+  width: 700px;
+  height: 200px;
+}
+
+.discos
+{
+  height: 140px;
+  width: 100px;
+  position: relative;
+  margin-right: 60px;
+  text-align:center;
+}
+
+.discos:hover
+{
+  transform: scale(1.5);
+  transition-duration: 1s;
+
+}
+
+.merch
+{
+  height: 140px;
+  width: 100px;
+  position: relative;
+  margin-right: 60px;
+  text-align:center;
+}
+
+.merch:hover
+{
+  transform: scale(1.5);
+  transition-duration: 1s;
+
+}
+
+table
+{
+  border: double;
+      border-top-width: medium;
+      border-right-width: medium;
+      border-bottom-width: medium;
+      border-left-width: medium;
+  border-radius: 15px;
+  border-width: 19px;
+  border-block-style: groove;
+  border-block-style: dashed;
+  width: -moz-available;
+  font-size: 30px;
+}
+
+td
+{
+  border: solid;
+  margin-left: 10px !important;
+  border-color: red;
+}
+
+th
+{
+  font-size: 40px;
+}

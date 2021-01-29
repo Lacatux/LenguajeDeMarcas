@@ -1,0 +1,29 @@
+h2
+{
+  font-size: 50px;
+  color: red;
+}
+
+
+.kk
+{
+  width: 1200px;
+  height: 1380px;
+  font-size: 22px;
+}
+
+.discos
+{
+  height: 300px;
+  width: 270px;
+  position: relative;
+  margin: 60px;
+  text-align:center;
+}
+
+.discos:hover
+{
+  transform: scale(1.5);
+  transition-duration: 1.5s;
+
+}
