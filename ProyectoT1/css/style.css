@@ -68,7 +68,8 @@ h2
   height: 140px;
   width: 100px;
   position: relative;
-  margin-right: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
   text-align:center;
 }
 
