@@ -2,8 +2,13 @@
 {
   border: 1px solid #dddddd;
   width: 40%;
+  margin-left: 540px;
+  margin-bottom: 387px;
 }
-
+h2 {
+  margin-left: 490px;
+  margin-bottom: 25px;
+}
 .fechas
 {
   margin-left:100px;

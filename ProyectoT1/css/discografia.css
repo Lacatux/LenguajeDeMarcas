@@ -1,0 +1,11 @@
+.discos
+{
+  height: 300px;
+  width: 270px;
+  position: relative;
+  margin: 60px;
+  text-align:center;
+  margin-top: -150px;
+  margin-left: 200px;
+  border: solid 10px;
+}
